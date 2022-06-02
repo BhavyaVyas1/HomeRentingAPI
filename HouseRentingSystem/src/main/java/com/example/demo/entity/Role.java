@@ -14,6 +14,7 @@ import lombok.ToString;
 @Setter
 @Data
 @ToString
+
 public class Role {
 	
 	@Id
