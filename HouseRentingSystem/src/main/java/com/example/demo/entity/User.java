@@ -27,7 +27,7 @@ import lombok.ToString;
 @Setter
 @Data
 @ToString
-@Table(name = "users", uniqueConstraints = { @UniqueConstraint(columnNames = "username"),
+@Table(name = "users", uniqueConstraints = {@UniqueConstraint(columnNames = "username"),
 											@UniqueConstraint(columnNames = "email")})
 public class User {
 
