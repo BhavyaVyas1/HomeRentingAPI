@@ -55,4 +55,8 @@ public class User {
 		this.password = password;
 		this.contactno = contactno;
 	}
+	
+	public User(String username) {
+		this.username = username;
+	}
 }

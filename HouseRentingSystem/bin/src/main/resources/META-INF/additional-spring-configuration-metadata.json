@@ -1,0 +1,72 @@
+{"properties": [
+  {
+    "name": "ohrs.app.jwtExpirationMs",
+    "type": "java.lang.String",
+    "description": "A description for 'ohrs.app.jwtExpirationMs'"
+  },
+  {
+    "name": "ohrs.app.jwtSecret",
+    "type": "java.lang.String",
+    "description": "A description for 'ohrs.app.jwtSecret'"
+  },
+  {
+    "name": "ohrs.app.jwtCookieName",
+    "type": "java.lang.String",
+    "description": "A description for 'ohrs.app.jwtCookieName'"
+  },
+  {
+    "name": "ohrs.app.jwtCookieName1",
+    "type": "java.lang.String",
+    "description": "A description for 'ohrs.app.jwtCookieName1'"
+  },
+  {
+    "name": "ohrs.app.jwtCookieName1",
+    "type": "java.lang.String",
+    "description": "A description for 'ohrs.app.jwtCookieName1'"
+  },
+  {
+    "name": "ohrs.app.jwtCookieName1",
+    "type": "java.lang.String",
+    "description": "A description for 'ohrs.app.jwtCookieName1'"
+  },
+  {
+    "name": "ohrs.app.jwtCookieName1",
+    "type": "java.lang.String",
+    "description": "A description for 'ohrs.app.jwtCookieName1'"
+  },
+  {
+    "name": "ohrs.app.jwtCookieName1",
+    "type": "java.lang.String",
+    "description": "A description for 'ohrs.app.jwtCookieName1'"
+  },
+  {
+    "name": "ohrs.app.jwtCookieName1",
+    "type": "java.lang.String",
+    "description": "A description for 'ohrs.app.jwtCookieName1'"
+  },
+  {
+    "name": "ohrs.app.jwtSecret1",
+    "type": "java.lang.String",
+    "description": "A description for 'ohrs.app.jwtSecret1'"
+  },
+  {
+    "name": "ohrs.app.jwtExpirationMs1",
+    "type": "java.lang.String",
+    "description": "A description for 'ohrs.app.jwtExpirationMs1'"
+  },
+  {
+    "name": "house.jwtCookieName",
+    "type": "java.lang.String",
+    "description": "A description for 'house.jwtCookieName'"
+  },
+  {
+    "name": "house.jwtSecret",
+    "type": "java.lang.String",
+    "description": "A description for 'house.jwtSecret'"
+  },
+  {
+    "name": "house.jwtExpirationMs",
+    "type": "java.lang.String",
+    "description": "A description for 'house.jwtExpirationMs'"
+  }
+]}
