@@ -9,13 +9,14 @@ import lombok.ToString;
 
 @Getter
 @Setter
-@Data
 @ToString
+@Data
 public class LoginRequest {
+	
 	@NotBlank
 	private String username;
 
 	@NotBlank
 	private String password;
-	
+
 }
