@@ -68,5 +68,15 @@
     "name": "house.jwtExpirationMs",
     "type": "java.lang.String",
     "description": "A description for 'house.jwtExpirationMs'"
+  },
+  {
+    "name": "spring.http.multipart.enabled",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.http.multipart.enabled'"
+  },
+  {
+    "name": "spring.http.multipart.location",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.http.multipart.location'"
   }
 ]}

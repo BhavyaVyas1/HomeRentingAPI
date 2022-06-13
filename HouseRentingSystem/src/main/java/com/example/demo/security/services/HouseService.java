@@ -8,7 +8,8 @@ import com.example.demo.models.House;
 
 public interface HouseService {
 	
-	House saveHouse(House house);
+	House saveHouse(MultipartFile file,String housename, String houseAddress, 
+			Long houseRent, String houseContactno, String houseType, String houseDescription);
 	 
     // Read operation
 	List<House> fetchHouseList();

@@ -14,10 +14,12 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
 import com.example.demo.models.House;
+import com.example.demo.models.User;
 import com.example.demo.security.services.HouseService;
 
 @RestController
@@ -36,9 +38,16 @@ public class HouseController {
 	// Save operation
     @PostMapping("/houses")
     @PreAuthorize("hasRole('OWNER')")
-    public House saveHouse(@Valid @RequestBody House house)
+    public House saveHouse(@RequestParam("file") MultipartFile file,
+    		@RequestParam("hname") String houseName,
+    		@RequestParam("haddress") String houseAddress,
+    		@RequestParam("hrent") Long houseRent,
+    		@RequestParam("hcontact") String houseContactno,
+    		@RequestParam("htype") String houseType,
+    		@RequestParam("hdescription") String houseDescription)
     {
-    	return houseService.saveHouse(house);
+    	return houseService.saveHouse(file, houseName, houseAddress, houseRent, houseContactno, houseType, houseDescription);
+    	//return houseService.saveHouse(house);
     }
 	
     // Read operation
