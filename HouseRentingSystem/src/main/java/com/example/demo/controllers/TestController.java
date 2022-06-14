@@ -34,7 +34,7 @@ public class TestController {
 
 	@GetMapping("/owner")
 	@PreAuthorize("hasRole('OWNER')")
-	public String moderatorAccess() {
+	public String ownerAccess() {
 		return "Owner Board.";
 	}
 

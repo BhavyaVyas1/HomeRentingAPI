@@ -19,6 +19,10 @@ public class HouseServiceImpl implements HouseService {
 	@Autowired
 	private HouseRepository houseRepository;
 
+	public HouseServiceImpl(HouseRepository houseRepository) {
+		this.houseRepository = houseRepository;
+	}
+
 	// Save operation
 	@Override
 	public House saveHouse(MultipartFile file, String housename, String houseAddress, Long houseRent,
@@ -71,7 +75,7 @@ public class HouseServiceImpl implements HouseService {
 		if (Objects.nonNull(house.getHouseContactno()) && !"".equalsIgnoreCase(house.getHouseContactno())) {
 			houseDB.setHouseContactno(house.getHouseContactno());
 		}
-		
+
 		if (Objects.nonNull(house.getHouseType()) && !"".equalsIgnoreCase(house.getHouseType())) {
 			houseDB.setHouseType(house.getHouseType());
 		}
