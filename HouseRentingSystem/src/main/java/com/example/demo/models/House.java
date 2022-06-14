@@ -29,8 +29,9 @@ import lombok.ToString;
 @Getter
 @Setter
 @Data
+@AllArgsConstructor
+@Builder
 @ToString
-//@Builder
 @Table(name = "house")
 public class House {
 
