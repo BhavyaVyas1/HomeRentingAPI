@@ -25,12 +25,11 @@ import com.example.demo.security.services.HouseService;
 @RestController
 @RequestMapping("/api")
 public class HouseController {
-	
 	@Autowired 
 	private HouseService houseService;
 	
 	@GetMapping("/index")
-	@PreAuthorize("hasRole('OWNER')")
+	@PreAuthorize("hasRole('OWNER')")	
 	public String moderatorAccess() {
 		return "Hi owner, you can add house";
 	}

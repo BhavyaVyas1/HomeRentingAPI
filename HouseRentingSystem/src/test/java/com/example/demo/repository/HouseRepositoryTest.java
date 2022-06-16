@@ -93,4 +93,7 @@ public class HouseRepositoryTest {
 		Assertions.assertThat(house1).isNull();
 	}
 	
+	
+	
+	
 }

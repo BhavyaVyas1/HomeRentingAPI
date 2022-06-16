@@ -51,7 +51,10 @@ public class HouseServiceImpl implements HouseService {
 	// Read operation
 	@Override
 	public List<House> fetchHouseList() {
-		return (List<House>) houseRepository.findAll();
+		List<House> houses = houseRepository.findAll();
+		System.out.println("Getting data from DB:" + houses);
+		//return (List<House>) houseRepository.findAll();
+		return houses;
 	}
 
 	// Update operation
